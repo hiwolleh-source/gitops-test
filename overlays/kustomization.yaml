@@ -4,3 +4,6 @@ resources:
 - ../base
 - service.yaml
 - rollout.yaml
+images:
+  - name: ghcr.io/vfarcic/silly-demo:1.4.126
+    newTag: 1.4.125  # Updated by CI
